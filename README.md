@@ -1,3 +1,9 @@
+# Foundations Lab: Technical Identity & Version Control
+
+**Student Name:** Wend Tin Basile
+**Course:** Cybersecurity Foundations Intensive (2026)
+**Date:** February 23, 2026
+
 ## Security Foundations: Governance & Frameworks <br>
 **CIA Triad**
 The CIA triad represents the three pillars of information security: confidentiality, integrity, and availability. It serves as a foundational framework for protecting information and is used as a checklist for security practitioners to ensure all angles of a security project are covered. <br>
@@ -12,3 +18,9 @@ Governance is considered as important as technical skill because it provides the
 
 **Which cybersecurity domain (Network, GRC, or Cloud) aligns most with today’s material?**  
 GRC (Governance, Risk, and Compliance) is the material that strongly aligns with the  cybersecurity domain because it focuses on structured security frameworks, control implementation, and regulatory requirements rather than purely technical configurations.It embeds the technical aspects of cybersecurity. Topics such as the Critical Security Controls, the National Institute of Standards and Technology Cybersecurity Framework, and Payment Card Industry Data Security Standard emphasize risk management, policy development, compliance validation, and security governance processes. While AAA (Authentication, Authorization, and Accounting) has technical applications in network and identity security, within this context it functions as a control mechanism required by governance frameworks and compliance standards. Overall, the material centers on managing security through policies, controls, and regulatory alignment, which are core elements of the GRC domain.
+
+### APA 7th Edition Reference
+American Psychological Association. (2020). *Publication manual of the American Psychological Association* (7th ed.). https://doi.org/10.1037/0000165-000
+
+## Executive Summary
+This repository establishes a secure version-control pipeline using Git and GitHub. This deployment ensures 100% traceability of configuration changes and provides a centralized audit trail for forensic or compliance reviews.

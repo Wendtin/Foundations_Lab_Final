@@ -4,9 +4,17 @@
 **Course:** Cybersecurity Foundations Intensive (2026)
 **Date:** February 23, 2026
 
-## Security Foundations: Governance & Frameworks <br>
-**CIA Triad**
-The CIA triad represents the three pillars of information security: confidentiality, integrity, and availability. It serves as a foundational framework for protecting information and is used as a checklist for security practitioners to ensure all angles of a security project are covered. <br>
+## Security Philosophy <br>
+
+This lab setup connects to core cybersecurity principles through the practices of environment standardization, system auditing, and hardware abstraction. A fundamental principle in professional cybersecurity is the creation of a standardized environment. By moving away from troubleshooting individual, varied hardware configurations (like 70 different laptops), security professionals ensure consistency and predictability with a final goal: safeguard data confidentiality, integrity and availability. In other words, this lab allows us to get to the heart of cybersecurity by starting with the CIA triad.
+
+The **CIA Triad** is based on three principles: Confidentiality, Integrity, and Availability.
+The **Confidentiality** is achieved through virtualization and logical isolation, where network segments are separated using VLANs, access control lists (ACLs), and firewall rules to restrict unauthorized access to sensitive systems and data. By deploying the lab within a virtualized environment such as Cisco Packet Tracer and isolated virtual machines, the infrastructure simulates real-world enterprise segmentation while preventing unintended external exposure. 
+The Integrity is about maintaining through controlled configuration management, device authentication, and secure routing protocols that protect data from unauthorized modification. Configuration backups, hashing mechanisms, and role-based administrative access ensure that network changes are deliberate and traceable. 
+The **Availability** is supported by redundancy mechanisms such as dynamic routing protocols, failover configurations, and scalable network design, which ensure that services remain operational even during device or link failures. The use of virtualization enhances availability by allowing rapid recovery, snapshot restoration, and controlled testing environments without impacting production systems. 
+Together, these measures reflect a layered defense strategy aligned with established cybersecurity frameworks and best practices (National Institute of Standards and Technology [NIST], 2020; Stallings & Brown, 2018).
+
+
 **AAA Framework**
 Authentication, authorization, and accounting (AAA) is a security framework that controls access to computer resources, enforces policies, and audits usage. AAA and its combined processes play a major role in network management and cybersecurity by screening users and keeping track of their activity while they are connected, aligning with the principles of the CIA triad to ensure data security. (What is AAA Security?. Fortinet. (n.d.). https://www.fortinet.com/resources/cyberglossary/aaa-security) <br>
 
@@ -18,6 +26,14 @@ Governance is considered as important as technical skill because it provides the
 
 **Which cybersecurity domain (Network, GRC, or Cloud) aligns most with today’s material?**  
 GRC (Governance, Risk, and Compliance) is the material that strongly aligns with the  cybersecurity domain because it focuses on structured security frameworks, control implementation, and regulatory requirements rather than purely technical configurations.It embeds the technical aspects of cybersecurity. Topics such as the Critical Security Controls, the National Institute of Standards and Technology Cybersecurity Framework, and Payment Card Industry Data Security Standard emphasize risk management, policy development, compliance validation, and security governance processes. While AAA (Authentication, Authorization, and Accounting) has technical applications in network and identity security, within this context it functions as a control mechanism required by governance frameworks and compliance standards. Overall, the material centers on managing security through policies, controls, and regulatory alignment, which are core elements of the GRC domain.
+
+### References
+
+National Institute of Standards and Technology. (2020). Security and privacy controls for information systems and organizations (NIST Special Publication 800-53 Rev. 5). U.S. Department of Commerce. https://doi.org/10.6028/NIST.SP.800-53r5
+Stallings, W., & Brown, L. (2018). Computer security: Principles and practice (4th ed.). Pearson.
+What Is Cybersecurity Governance and Why Does It Matter ?. What is cybersecurity governance and why does it matter? (n.d.). https://www.ollusa.edu/blog/what-is-cybersecurity-governance.html
+hat is AAA Security?. Fortinet. (n.d.). https://www.fortinet.com/resources/cyberglossary/aaa-security
+
 
 ### APA 7th Edition Reference
 American Psychological Association. (2020). *Publication manual of the American Psychological Association* (7th ed.). https://doi.org/10.1037/0000165-000
